@@ -10,3 +10,4 @@ function GitHubHeaderBrushStroke(color = '#279f43') {
     document.querySelector('header').style.cssText = `background-color: ${color};`;
     return null;
 }
+GitHubHeaderBrushStroke('green')
